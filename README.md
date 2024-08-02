@@ -5,9 +5,7 @@
 
 ## Update
 
-- **1.0** - The Library Management System is now a dynamic web application that allows users to manage books and members efficiently through a user-friendly                    web interface. Built using Java, Maven, JSP, and servlets, this application enhances the library management experience compared to the earlier                      static version.
-  
-
+- **1.0** - The Library Management System is now a dynamic web application that allows users to manage books and members efficiently through a user-friendly web interface. Built using Java, Maven, JSP, and servlets, this application enhances the library management experience compared to the earlier static version.
 
 A simple Java-based library management system that allows users to manage books and members efficiently.
 
@@ -42,7 +40,41 @@ A simple Java-based library management system that allows users to manage books 
 
 ## Setup Instructions
 
+Follow these steps to set up the Library Management System on your local machine.
+
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/library-management-system.git
    cd library-management-system
+
+### Import Existing Maven Project into Eclipse
+1. Open **Eclipse IDE**.
+2. Go to `File` > `Import`.
+3. Select `Maven` > `Existing Maven Projects` and click `Next`.
+4. Browse to the location of the cloned repository and select it.
+5. Click `Finish` to import the project.
+
+### Install Apache Tomcat Server
+1. Download Apache Tomcat from the [official website](https://tomcat.apache.org/).
+2. Extract the downloaded ZIP file to your desired location.
+
+### Add Tomcat Server to Eclipse
+1. Open **Eclipse IDE**.
+2. Go to `Window` > `Preferences`.
+3. In the Preferences window, expand `Server` and click on `Runtime Environments`.
+4. Click `Add`, select `Apache Tomcat vX.X Server`, and click `Next`.
+5. Browse to the location where you extracted Tomcat and click `Finish`.
+
+### Initialize the Tomcat Server
+1. In Eclipse, go to the `Servers` tab (you can open it via `Window` > `Show View` > `Servers`).
+2. Right-click in the `Servers` tab and select `New` > `Server`.
+3. Choose `Apache Tomcat vX.X Server`, select the installed Tomcat server, and click `Next`.
+4. Add your project to the server and click `Finish`.
+5. Right-click on the server in the `Servers` tab and select `Start` to run the server.
+
+### Access the Application
+1. Open a web browser and go to `http://localhost:8080/library-management-system` or run server from index.jsp.
+2. You can now use the Library Management System.
+
+## Note
+Ensure that you have JDK and Maven installed on your system. Configure the necessary environment variables if required.
