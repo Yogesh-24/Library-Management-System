@@ -3,9 +3,7 @@
   <img src="https://i.ibb.co/x3qtZzr/Screenshot-2024-06-30-130735.png" alt="Library Image" width="100%">
 </p>
 
-#Update
-
-## Features
+## Update
 
 - **1.0** - The Library Management System is now a dynamic web application that allows users to manage books and members efficiently through a user-friendly                    web interface. Built using Java, Maven, JSP, and servlets, this application enhances the library management experience compared to the earlier                      static version.
   
