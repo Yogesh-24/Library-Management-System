@@ -42,7 +42,7 @@ A simple Java-based library management system that allows users to manage books 
 
 Follow these steps to set up the Library Management System on your local machine.
 
-1. **Clone the repository:**
+1. ### Clone the repository:
    ```bash
    git clone https://github.com/yourusername/library-management-system.git
    cd library-management-system
